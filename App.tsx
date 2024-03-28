@@ -32,7 +32,7 @@ const App = () => {
         <Button title="Gerar Relatório" onPress={handleGenerateRandomNumber} />
         {randomNumber !== null && (
           <View style={styles.resultContainer}>
-            <Text style={styles.resultText}>Número aleatório gerado: <Text style={styles.resultNumber}>{randomNumber}</Text></Text>
+            <Text style={styles.resultText}>Número aleatório gerado : <Text style={styles.resultNumber}>{randomNumber}</Text></Text>
           </View>
         )}
       </View>
